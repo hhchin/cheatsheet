@@ -1,0 +1,36 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/shortcut.css"/>
+  <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/js/search.js"></script>
+  <script>
+  function aboutPopup() {
+    var popup = document.getElementById("aboutPopup");
+    popup.classList.toggle("show");
+  }
+  </script>
+</head>
+<div class="wrap">
+
+ <div class="search">
+  <div class="table">
+    <div class ="row">
+      <div class="cell">
+        <h1> Shortcuts </h1>
+      </div>
+      <div class="cell" align="right">
+        <div class="about" onclick="aboutPopup()"> About
+          <span class="popuptext" id="aboutPopup">Testing </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input type="text" class="searchTerm" placeholder="What acronym or terms are you looking for?" id="searchBar">
+  <button type="submit"  id="searchSubmit" class="searchButton"></button>
+  <div class="result" style="padding: 0;">
+    <ul id="resultList">
+    </ul>
+  </div>
+</div>
+
+</div>

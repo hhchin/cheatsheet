@@ -1,0 +1,117 @@
+body{
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.about .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #C2C2C2;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: -200%;
+  margin-left: -80px;
+}
+
+.about .show {
+  visibility: visible;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.search {
+  width: 100%;
+  position: fixed;
+  top: 2px;
+}
+
+.search h1{
+  color: #B5222B;
+}
+
+.table {
+  display: table;
+  width:100%;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.result {
+  width: 100%;
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #B5222B;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  color: #000;
+  position: absolute;
+}
+
+.searchTerm:focus{
+  color: #000;
+}
+
+.searchButton {
+  background-color: #B5222B;
+  -webkit-mask-image: url(/img/search.svg);
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 30px 30px;
+  mask-image: url(/img/search.svg);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: 30px 30px;
+  position: absolute;  
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #B5222B;
+  text-align: center;
+  color: #B5222B;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
