@@ -1,6 +1,6 @@
-body{
-  background-color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about {
@@ -12,7 +12,7 @@ body{
 .about .popuptext {
   visibility: hidden;
   width: 160px;
-  background-color: #C2C2C2;
+  background-color: #c2c2c2;
   color: #000000;
   text-align: center;
   border-radius: 6px;
@@ -30,13 +30,21 @@ body{
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .search {
@@ -45,13 +53,13 @@ body{
   top: 2px;
 }
 
-.search h1{
-  color: #B5222B;
+.search h1 {
+  color: #b5222b;
 }
 
 .table {
   display: table;
-  width:100%;
+  width: 100%;
 }
 .row {
   display: table-row;
@@ -72,7 +80,7 @@ body{
 .searchTerm {
   float: left;
   width: 100%;
-  border: 3px solid #B5222B;
+  border: 3px solid #b5222b;
   padding: 5px;
   height: 40px;
   border-radius: 5px;
@@ -82,33 +90,33 @@ body{
   position: absolute;
 }
 
-.searchTerm:focus{
+.searchTerm:focus {
   color: #000;
 }
 
 .searchButton {
-  background-color: #B5222B;
-  -webkit-mask-image: url(/img/search.svg);
+  background-color: #b5222b;
+  -webkit-mask-image: url(../img/search.svg);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 30px 30px;
-  mask-image: url(/img/search.svg);
+  mask-image: url(../img/search.svg);
   mask-position: center;
   mask-repeat: no-repeat;
   mask-size: 30px 30px;
-  position: absolute;  
+  position: absolute;
   right: 0px;
   width: 40px;
   height: 40px;
-  border: 1px solid #B5222B;
+  border: 1px solid #b5222b;
   text-align: center;
-  color: #B5222B;
+  color: #b5222b;
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
 }
 
-.wrap{
+.wrap {
   width: 30%;
   position: absolute;
   top: 5%;
