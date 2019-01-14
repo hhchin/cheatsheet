@@ -5,6 +5,7 @@
 import pandas as pd
 import json
 import sys
+import csv
 
 def main():
   if len(sys.argv) > 1:
@@ -12,8 +13,10 @@ def main():
   else:
     csv_fn = 'temp_db.csv'
 
-  df = pd.read_csv(csv_fn)
-  df.sort_values(by="fullname")
+  #@TODO check if this way of reading csv is robust to escape chars
+  df = pd.read_csv(csv_fn, quoting=csv.QUOTE_NONE, delimiter=r",\s?", engine="python")
+  df.sort_values(by="fullname", inplace=True)
+
   def form_name(row):
     return "{} ({})".format(row['fullname'], row['shortform'])
 

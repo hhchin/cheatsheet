@@ -1,5 +1,12 @@
-"shortform","fullname","url"
-"HSC","Head Civil Service",""
-"POH","Political Office Holder",""
-"IM8","Instruction Manual 8 for ICT","@TODO"
-"PDPA","Personal Data Protection Act 2012", "https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview"
+shortform,fullname,url
+CoP,Communities of Practice, 
+Codex,Core Operations Development Environment and eXchange, 
+SNP,Strategic National Project, 
+GDC,Government Data Center,
+GPC,Government Private Cloud,
+GCC,Government Commercial Cloud, 
+Gcloud,Government Cloud,
+HSC,Head Civil Service,
+POH,Political Office Holder,
+IM8,Instruction Manual 8 for ICT,@TODO
+PDPA,Personal Data Protection Act 2012,https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview

@@ -1,11 +1,31 @@
 const masterList = 
 [
   {
-    name: "Head Civil Service (HSC)",
+    name: "Communities of Practice (CoP)",
     url: ""
   },
   {
-    name: "Political Office Holder (POH)",
+    name: "Core Operations Development Environment and eXchange (Codex)",
+    url: ""
+  },
+  {
+    name: "Government Cloud (Gcloud)",
+    url: ""
+  },
+  {
+    name: "Government Commercial Cloud (GCC)",
+    url: ""
+  },
+  {
+    name: "Government Data Center (GDC)",
+    url: ""
+  },
+  {
+    name: "Government Private Cloud (GPC)",
+    url: ""
+  },
+  {
+    name: "Head Civil Service (HSC)",
     url: ""
   },
   {
@@ -16,4 +36,12 @@ const masterList =
     name: "Personal Data Protection Act 2012 (PDPA)",
     url: "https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview"
   }
+  {
+    name: "Political Office Holder (POH)",
+    url: ""
+  },
+  {
+    name: "Strategic National Project (SNP)",
+    url: ""
+  },
 ]
