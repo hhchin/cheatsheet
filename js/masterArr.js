@@ -35,7 +35,7 @@ const masterList =
   {
     name: "Personal Data Protection Act 2012 (PDPA)",
     url: "https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview"
-  }
+  },
   {
     name: "Political Office Holder (POH)",
     url: ""
@@ -43,5 +43,5 @@ const masterList =
   {
     name: "Strategic National Project (SNP)",
     url: ""
-  },
+  }
 ]

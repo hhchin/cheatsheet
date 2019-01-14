@@ -23,7 +23,6 @@ $(document).ready(function() {
       function query() {
         var queryTerms = document.getElementById("searchBar").value;
         var result = fuse.search(queryTerms);
-        console.log(result);
         var resultListHTML = "";
         for (var i = 0; i < result.length; i++) {
           if (result[i].url === "") {

@@ -16,6 +16,7 @@ def main():
   #@TODO check if this way of reading csv is robust to escape chars
   df = pd.read_csv(csv_fn, quoting=csv.QUOTE_NONE, delimiter=r",\s?", engine="python")
   df.sort_values(by="fullname", inplace=True)
+  df.reset_index(drop=True, inplace=True)
 
   def form_name(row):
     return "{} ({})".format(row['fullname'], row['shortform'])
