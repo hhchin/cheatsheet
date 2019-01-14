@@ -1,0 +1,20 @@
+# javascript
+node_modules/
+app/static/bundle.js**
+
+# python
+*.pyc
+*.pyo
+__pycache__/
+
+# logs
+npm-debug.log
+
+# generated asset
+app/static/assets/styles
+
+.idea/
+venv/
+
+# Macs
+.DS_Store
