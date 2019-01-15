@@ -1,6 +1,9 @@
 # Cheatsheet for Internal Government Websites
 
-To get started:
+To get this started:
+`docker build -t shortcut . && docker run -p 8080:8080 shortcut`
+
+To add an entry:
 
 - Populate entries in temp_db.csv
 - Do a `pip install -r requirements.txt` to install dependencies
