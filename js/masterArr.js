@@ -36,6 +36,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "ACE",
+    name: "Assistant Chief Executive (ACE)",
+    url: ""
+  },
+  {
     shortform: "AGC",
     name: "Attorney-General's Chambers (AGC)",
     url: " "
@@ -93,6 +98,11 @@ const masterList =
   {
     shortform: "CE",
     name: "Chief Executive (CE)",
+    url: ""
+  },
+  {
+    shortform: "CIO",
+    name: "Chief Information Office (CIO)",
     url: ""
   },
   {
@@ -156,6 +166,16 @@ const masterList =
     url: ""
   },
   {
+    shortform: "DOS",
+    name: "Department of Statistics (DOS)",
+    url: ""
+  },
+  {
+    shortform: "DS",
+    name: "Deputy Secretary (DS)",
+    url: ""
+  },
+  {
     shortform: "DE",
     name: "Digital Economy (DE)",
     url: ""
@@ -212,7 +232,7 @@ const masterList =
   },
   {
     shortform: "ESG",
-    name: "Enterprise SG (ESG)",
+    name: "Enterprise Singapore (ESG)",
     url: ""
   },
   {
