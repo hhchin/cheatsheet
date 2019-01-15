@@ -1,6 +1,21 @@
 const masterList = 
 [
   {
+    shortform: "APIX",
+    name: "API eXchange (APIX)",
+    url: ""
+  },
+  {
+    shortform: "ACRA",
+    name: "Accounting and Corporate Regulatory Authority (ACRA)",
+    url: ""
+  },
+  {
+    shortform: "AStar",
+    name: "Agency for Science, Technology and Research (AStar)",
+    url: ""
+  },
+  {
     shortform: "AWS",
     name: "Amazon Web Services (AWS)",
     url: ""
@@ -21,13 +36,13 @@ const masterList =
     url: ""
   },
   {
-    shortform: "AR",
-    name: "Augmented Reality (AR)",
-    url: ""
+    shortform: "AGC",
+    name: "Attorney-General's Chambers (AGC)",
+    url: " "
   },
   {
-    shortform: "AUT",
-    name: "Auto Utensils Trolley (AUT)",
+    shortform: "AR",
+    name: "Augmented Reality (AR)",
     url: ""
   },
   {
@@ -36,8 +51,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "AUT",
+    name: "Automatic Utensils Trolley (AUT)",
+    url: ""
+  },
+  {
     shortform: "BMS",
     name: "Building Management System (BMS)",
+    url: ""
+  },
+  {
+    shortform: "BCA",
+    name: "Building and Construction Authority (BCA)",
     url: ""
   },
   {
@@ -46,8 +71,33 @@ const masterList =
     url: ""
   },
   {
+    shortform: "CNB",
+    name: "Central Narcotics Bureau (CNB)",
+    url: ""
+  },
+  {
+    shortform: "CPFB",
+    name: "Central Provident Fund Board (CPFB)",
+    url: ""
+  },
+  {
+    shortform: "CDO",
+    name: "Chief Data Officer (CDO)",
+    url: ""
+  },
+  {
+    shortform: "CDSO",
+    name: "Chief Digital Strategy Officer (CDSO)",
+    url: ""
+  },
+  {
     shortform: "CE",
     name: "Chief Executive (CE)",
+    url: ""
+  },
+  {
+    shortform: "CAAS",
+    name: "Civil Aviation Authority of Singapore (CAAS)",
     url: ""
   },
   {
@@ -96,6 +146,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "CSA",
+    name: "Cyber Security Agency (CSA)",
+    url: ""
+  },
+  {
     shortform: "DA",
     name: "Demand Aggregate (DA)",
     url: ""
@@ -112,7 +167,7 @@ const masterList =
   },
   {
     shortform: "DISG",
-    name: "Digital Industry SG (DISG)",
+    name: "Digital Industry Singapore (DISG)",
     url: ""
   },
   {
@@ -128,6 +183,16 @@ const masterList =
   {
     shortform: "DC",
     name: "Distribution Centre (DC)",
+    url: ""
+  },
+  {
+    shortform: "ELD",
+    name: "Elections Department Singapore (ELD)",
+    url: ""
+  },
+  {
+    shortform: "ERP",
+    name: "Electronic Road Pricing (ERP)",
     url: ""
   },
   {
@@ -186,8 +251,23 @@ const masterList =
     url: ""
   },
   {
+    shortform: "GDO",
+    name: "Government Data Office (GDO)",
+    url: ""
+  },
+  {
     shortform: "GPC",
     name: "Government Private Cloud (GPC)",
+    url: ""
+  },
+  {
+    shortform: "GSIB",
+    name: "Government Standard Image Baseline (GSIB)",
+    url: ""
+  },
+  {
+    shortform: "GovTech",
+    name: "Government Technology Agency (GovTech)",
     url: ""
   },
   {
@@ -208,6 +288,11 @@ const masterList =
   {
     shortform: "HOD",
     name: "Head of Department (HOD)",
+    url: ""
+  },
+  {
+    shortform: "HSA",
+    name: "Health Science Authority (HSA)",
     url: ""
   },
   {
@@ -291,6 +376,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "MBC",
+    name: "Mapletree Business Center (MBC)",
+    url: ""
+  },
+  {
     shortform: "MRSS",
     name: "Media RSS (MRSS)",
     url: ""
@@ -306,13 +396,73 @@ const masterList =
     url: ""
   },
   {
+    shortform: "MIN",
+    name: "Minister (MIN)",
+    url: ""
+  },
+  {
+    shortform: "MOS",
+    name: "Minister of State (MOS)",
+    url: ""
+  },
+  {
     shortform: "MCI",
     name: "Ministry of Communications and Information (MCI)",
     url: ""
   },
   {
+    shortform: "MINDEF",
+    name: "Ministry of Defence (MINDEF)",
+    url: ""
+  },
+  {
+    shortform: "MOE",
+    name: "Ministry of Education (MOE)",
+    url: ""
+  },
+  {
+    shortform: "MEWR",
+    name: "Ministry of Environment and Water Resources (MEWR)",
+    url: ""
+  },
+  {
     shortform: "MOF",
     name: "Ministry of Finance (MOF)",
+    url: ""
+  },
+  {
+    shortform: "MFA",
+    name: "Ministry of Foreign Affairs (MFA)",
+    url: ""
+  },
+  {
+    shortform: "MOH",
+    name: "Ministry of Health (MOH)",
+    url: ""
+  },
+  {
+    shortform: "MINLAW",
+    name: "Ministry of Law (MINLAW)",
+    url: ""
+  },
+  {
+    shortform: "MOM",
+    name: "Ministry of Manpower (MOM)",
+    url: ""
+  },
+  {
+    shortform: "MTI",
+    name: "Ministry of Trade and Industry (MTI)",
+    url: ""
+  },
+  {
+    shortform: "MOT",
+    name: "Ministry of Transport (MOT)",
+    url: ""
+  },
+  {
+    shortform: "MAS",
+    name: "Monetary Authority of Singapore (MAS)",
     url: ""
   },
   {
@@ -326,6 +476,16 @@ const masterList =
     url: ""
   },
   {
+    shortform: "NEA",
+    name: "National Environment Agency (NEA)",
+    url: ""
+  },
+  {
+    shortform: "NParks",
+    name: "National Park Board (NParks)",
+    url: ""
+  },
+  {
     shortform: "NSC",
     name: "National Speech Corpus (NSC)",
     url: ""
@@ -333,6 +493,11 @@ const masterList =
   {
     shortform: "NDA",
     name: "Non Disclosure Agreement (NDA)",
+    url: ""
+  },
+  {
+    shortform: "NoM",
+    name: "Notice of Meeting (NoM)",
     url: ""
   },
   {
@@ -358,6 +523,11 @@ const masterList =
   {
     shortform: "POH",
     name: "Political Office Holder (POH)",
+    url: ""
+  },
+  {
+    shortform: "PMO",
+    name: "Prime Minister's Office (PMO)",
     url: ""
   },
   {
@@ -431,6 +601,16 @@ const masterList =
     url: ""
   },
   {
+    shortform: "2M",
+    name: "Second Minister (2M)",
+    url: ""
+  },
+  {
+    shortform: "2PS",
+    name: "Second Permanent Secretary (2PS)",
+    url: ""
+  },
+  {
     shortform: "STG",
     name: "Sectoral Transformation Group (STG)",
     url: ""
@@ -441,8 +621,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "SWG",
+    name: "Secure Walled Garden (SWG)",
+    url: ""
+  },
+  {
     shortform: "SLM",
     name: "Senior Level Management (SLM)",
+    url: ""
+  },
+  {
+    shortform: "SMS",
+    name: "Senior Minister of State (SMS)",
     url: ""
   },
   {
@@ -456,13 +646,28 @@ const masterList =
     url: ""
   },
   {
+    shortform: "SGEMS",
+    name: "Singapore Government Electronic Messaging System (SGEMS)",
+    url: ""
+  },
+  {
     shortform: "SMCCI",
     name: "Singapore Malay Chamber of Commerce & Industry (SMCCI)",
     url: ""
   },
   {
+    shortform: "SPF",
+    name: "Singapore Police Force (SPF)",
+    url: ""
+  },
+  {
     shortform: "SP",
     name: "Singapore Polytechnic (SP)",
+    url: ""
+  },
+  {
+    shortform: "SPS",
+    name: "Singapore Prison Service (SPS)",
     url: ""
   },
   {
@@ -488,6 +693,16 @@ const masterList =
   {
     shortform: "SVP",
     name: "Small Value Purchase (SVP)",
+    url: ""
+  },
+  {
+    shortform: "SNDGG",
+    name: "Smart Nation and Digital Government Group (SNDGG)",
+    url: ""
+  },
+  {
+    shortform: "SNDGO",
+    name: "Smart Nation and Digital Government Office (SNDGO)",
     url: ""
   },
   {
@@ -517,7 +732,7 @@ const masterList =
   },
   {
     shortform: "SAP",
-    name: "Systems, Applications & Products -- A German-based company that makes enterprise software (SAP)",
+    name: "Systems, Applications & Products: A German enterprise software Company (SAP)",
     url: ""
   },
   {
@@ -573,6 +788,16 @@ const masterList =
   {
     shortform: "VR",
     name: "Virtual Reality (VR)",
+    url: ""
+  },
+  {
+    shortform: "VWO",
+    name: "Voluntary Welfare Organisation (VWO)",
+    url: ""
+  },
+  {
+    shortform: "WOG",
+    name: "Whole of Government (WOG)",
     url: ""
   }
 ]

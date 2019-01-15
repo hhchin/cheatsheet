@@ -1,116 +1,165 @@
 "shortform","fullname","url"
-"CoP","Communities of Practice",
-"Codex","Core Operations Development Environment and eXchange",
-"SNP","Strategic National Project",
-"GDC","Government Data Center",
-"GPC","Government Private Cloud",
-"GCC","Government Commercial Cloud",
-"Gcloud","Government Cloud",
-"HSC","Head Civil Service",
-"POH","Political Office Holder",
+"2M","Second Minister",""
+"2PS","Second Permanent Secretary",""
+"ACE","Assistant Chief Executive",""
+"ACRA","Accounting and Corporate Regulatory Authority",""
+"AGC","Attorney-General's Chambers"," "
+"AGV","Automated Guided Vehicle",""
+"AI","Artificial Intelligence",""
+"AIP","Approval In Principal",""
+"API","Application Programming Interface",""
+"APIX","API eXchange",""
+"AR","Augmented Reality",""
+"AStar","Agency for Science, Technology and Research",""
+"AUT","Automatic Utensils Trolley",""
+"AWS","Amazon Web Services",""
+"BCA","Building and Construction Authority",""
+"BD","Business Development",""
+"BMS","Building Management System",""
+"CAAS","Civil Aviation Authority of Singapore",""
+"CDO","Chief Data Officer",""
+"CDR","Common Data Representation",""
+"CDSO","Chief Digital Strategy Officer",""
+"CE","Chief Executive",""
+"CIO","Chief Information Office",""
+"CMS","Content Management System",""
+"CNA","Cloud Native Architecture",""
+"CNB","Central Narcotics Bureau",""
+"CPFB","Central Provident Fund Board",""
+"CRM","Customer Relationship Management",""
+"CSA","Cyber Security Agency",""
+"CSC","Civil Service College",""
+"CSD&M","Conference on Complex Systems Design & Management",""
+"CSDM","Complex Systems Design & Management",""
+"CoP","Communities of Practice",""
+"Codex","Core Operations Development Environment and eXchange",""
+"DA","Demand Aggregate",""
+"DC","Distribution Centre",""
+"DE","Digital Economy",""
+"DESSA","Digital Economy Smart Services Architecture",""
+"DEX","Samsung Desktop Experience",""
+"DISG","Digital Industry Singapore",""
+"DOS","Department of Statistics",""
+"DS","Deputy Secretary",""
+"DSL","Digital Services Lab",""
+"DSLC","Digital Services Lab Cluster",""
+"EDG","Enterprise Development Grant",""
+"EDP","Enterprise Data Platform",""
+"ELD","Elections Department Singapore",""
+"ERP","Electronic Road Pricing",""
+"ERP","Enterprise Resource Planning",""
+"ESG","Enterprise Singapore",""
+"EXCO","Executive Committee",""
+"F&B","Food & Beverage",""
+"FP1","Fusionopolis 1",""
+"GCC","Government Commercial Cloud",""
+"GCP","Google Cloud Platform",""
+"GDC","Government Data Center",""
+"GDO","Government Data Office",""
+"GITD","Group IT Department",""
+"GLS","Grocery Logistics Singapore",""
+"GPC","Government Private Cloud",""
+"GSIB","Government Standard Image Baseline",""
+"Gcloud","Government Cloud",""
+"GovTech","Government Technology Agency",""
+"HADR","High Availability Disaster Recovery",""
+"HOD","Head of Department",""
+"HSA","Health Science Authority",""
+"HSC","Head Civil Service",""
+"I2R","Institute for Infocomm Research",""
+"ICM","Infocomm and Media",""
+"ICT","Info Comm Technology",""
+"IDL","Interface Description Language",""
 "IM8","Instruction Manual 8 for ICT","@TODO"
+"IMD","In Mall Distribution",""
+"IMDA","Info-communications Media Development Authority",""
+"IPI","Intellectual Property Intermediary",""
+"ITM","Infocomm Media Industry Transformation Map",""
+"JD","Job Description",""
+"JSON","JavaScript Object Notation",""
+"KPI","Key Performance Index",""
+"LDA","Latent Dirichlet Allocation",""
+"LIDAR","Light Detecting and Ranging",""
+"LLE","Large Local Enterprise",""
+"MAS","Monetary Authority of Singapore",""
+"MBC","Mapletree Business Center",""
+"MCI","Ministry of Communications and Information",""
+"MEWR","Ministry of Environment and Water Resources",""
+"MFA","Ministry of Foreign Affairs",""
+"MIN","Minister",""
+"MINDEF","Ministry of Defence",""
+"MINLAW","Ministry of Law",""
+"MOE","Ministry of Education",""
+"MOF","Ministry of Finance",""
+"MOH","Ministry of Health",""
+"MOI","Memorandum of Intent",""
+"MOM","Ministry of Manpower",""
+"MOS","Minister of State",""
+"MOT","Ministry of Transport",""
+"MRSS","Media RSS",""
+"MTI","Ministry of Trade and Industry",""
+"MVP","Minimum Viable Product",""
+"NDA","Non Disclosure Agreement",""
+"NEA","National Environment Agency",""
+"NGC","NVIDIA GPU Cloud",""
+"NParks","National Park Board",""
+"NSC","National Speech Corpus",""
+"NTU","Nanyang Technological University",""
+"NoM","Notice of Meeting",""
+"OCR","Optical Character Recognition",""
+"PCA","Project Collaboration Agreement",""
+"PDD","Punggol Digital District",""
 "PDPA","Personal Data Protection Act 2012","https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview"
-"IPI","Intellectual Property Intermediary",
-"SCS","Singapore Computer Society",
-"ROI","Return on Investment",
-"CE","Chief Executive",
-"STG","Sectoral Transformation Group",
-"TRL","Technology Readiness Level",
-"AI","Artificial Intelligence",
-"BD","Business Development",
-"PS","Permanent Secretary",
-"MCI","Ministry of Communications and Information",
-"NTU","Nanyang Technological University",
-"JD","Job Description",
-"TIH","Tourism Information & Services Hub",
-"HOD","Head of Department",
-"USB","Universal Serial Bus",
-"POS","Point of Sale",
-"SQL","Structured Query Language",
-"HADR","High Availability Disaster Recovery",
-"VM","Virtual Machine",
-"NDA","Non Disclosure Agreement",
-"OCR","Optical Character Recognition",
-"CSC","Civil Service College",
-"CSDM","Complex Systems Design & Management",
-"NSC","National Speech Corpus",
-"SVP","Small Value Purchase",
-"PO","Purchase Order",
-"SHIP","Secure Hybrid Integrated Pipeline",
-"TIG","Technology Infrastructure Group",
-"EDG","Enterprise Development Grant",
-"LLE","Large Local Enterprise",
-"PCA","Project Collaboration Agreement",
-"LDA","Latent Dirichlet Allocation",
-"JSON","JavaScript Object Notation",
-"GCP","Google Cloud Platform",
-"SDLC","Software Development Life Cycle",
-"SME","Small Medium Enterprise",
-"MRSS","Media RSS",
-"RSS","Really Simple Syndication; Rich Site Summary",
-"DA","Demand Aggregate",
-"AR","Augmented Reality",
-"VR","Virtual Reality",
-"AIP","Approval In Principal",
-"CNA","Cloud Native Architecture",
-"RCA","Research Collaboration Agreement",
-"DE","Digital Economy",
-"KPI","Key Performance Index",
-"ICM","Infocomm and Media",
-"TNP","The New Paper",
-"SEA","South East Asia",
-"AWS","Amazon Web Services",
-"VPC","Virtual Private Cloud",
-"SGQR","Singapore Quick Response Code",
-"I2R","Institute for Infocomm Research",
-"STB","Singapore Tourism Board",
-"IMDA","Info-communications Media Development Authority",
-"SLM","Senior Level Management",
-"EXCO","Executive Committee",
-"MOF","Ministry of Finance",
-"API","Application Programming Interface",
-"F&B","Food & Beverage",
-"CMS","Content Management System",
-"BMS","Building Management System",
-"CRM","Customer Relationship Management",
-"NGC","NVIDIA GPU Cloud",
-"CSD&M","Conference on Complex Systems Design & Management",
-"SMCCI","Singapore Malay Chamber of Commerce & Industry",
-"DSL","Digital Services Lab",
-"UX","User eXperience",
-"MVP","Minimum Viable Product",
-"RPCA","Robust Principal Component Analysis",
-"GITD","Group IT Department",
-"ESG","Enterprise SG",
-"DISG","Digital Industry SG",
-"ITM","Infocomm Media Industry Transformation Map",
-"DEX","Samsung Desktop Experience",
-"SLA","Service Level Agreement",
-"EDP","Enterprise Data Platform",
-"DESSA","Digital Economy Smart Services Architecture",
-"RTI","Real-Time Innovations",
-"IDL","Interface Description Language",
-"CDR","Common Data Representation",
-"GLS","Grocery Logistics Singapore",
-"DC","Distribution Centre",
-"AUT","Auto Utensils Trolley",
-"PDD","Punggol Digital District",
-"DSLC","Digital Services Lab Cluster",
-"ICT","Info Comm Technology",
-"ST","Singapore Technologies",
-"SKU","Stock Keeping Unit",
-"TMS","Transportation Management System",
-"POD","Proof of Delivery",
-"ERP","Enterprise Resource Planning",
-"AGV","Automated Guided Vehicle",
-"MOI","Memorandum of Intent",
-"SAP","Systems, Applications & Products -- A German-based company that makes enterprise software",
-"SOW","Scope of Work",
-"FP1","Fusionopolis 1",
-"IMD","In Mall Distribution",
-"RMF","Robotics Middleware Framework",
-"SP","Singapore Polytechnic",
-"ROS","Robotics Operating System",
-"LIDAR","Light Detecting and Ranging",
-"VPN","Virtual Private Network",
-"POC","Proof of Concept",
+"PMO","Prime Minister's Office",""
+"PO","Purchase Order",""
+"POC","Proof of Concept",""
+"POD","Proof of Delivery",""
+"POH","Political Office Holder",""
+"POS","Point of Sale",""
+"PS","Permanent Secretary",""
+"RCA","Research Collaboration Agreement",""
+"RMF","Robotics Middleware Framework",""
+"ROI","Return on Investment",""
+"ROS","Robotics Operating System",""
+"RPCA","Robust Principal Component Analysis",""
+"RSS","Really Simple Syndication; Rich Site Summary",""
+"RTI","Real-Time Innovations",""
+"SAP","Systems, Applications & Products: A German enterprise software Company",""
+"SCS","Singapore Computer Society",""
+"SDLC","Software Development Life Cycle",""
+"SEA","South East Asia",""
+"SGEMS","Singapore Government Electronic Messaging System",""
+"SGQR","Singapore Quick Response Code",""
+"SHIP","Secure Hybrid Integrated Pipeline",""
+"SKU","Stock Keeping Unit",""
+"SLA","Service Level Agreement",""
+"SLM","Senior Level Management",""
+"SMCCI","Singapore Malay Chamber of Commerce & Industry",""
+"SME","Small Medium Enterprise",""
+"SMS","Senior Minister of State",""
+"SNDGG","Smart Nation and Digital Government Group",""
+"SNDGO","Smart Nation and Digital Government Office",""
+"SNP","Strategic National Project",""
+"SOW","Scope of Work",""
+"SP","Singapore Polytechnic",""
+"SPF","Singapore Police Force",""
+"SPS","Singapore Prison Service",""
+"SQL","Structured Query Language",""
+"ST","Singapore Technologies",""
+"STB","Singapore Tourism Board",""
+"STG","Sectoral Transformation Group",""
+"SVP","Small Value Purchase",""
+"SWG","Secure Walled Garden",""
+"TIG","Technology Infrastructure Group",""
+"TIH","Tourism Information & Services Hub",""
+"TMS","Transportation Management System",""
+"TNP","The New Paper",""
+"TRL","Technology Readiness Level",""
+"USB","Universal Serial Bus",""
+"UX","User eXperience",""
+"VM","Virtual Machine",""
+"VPC","Virtual Private Cloud",""
+"VPN","Virtual Private Network",""
+"VR","Virtual Reality",""
+"VWO","Voluntary Welfare Organisation",""
+"WOG","Whole of Government",""
