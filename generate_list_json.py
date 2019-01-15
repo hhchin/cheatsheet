@@ -13,13 +13,16 @@ def main():
   else:
     csv_fn = 'temp_db.csv'
 
+  rm_quote = lambda x: x.replace('"', '')
   #@TODO check if this way of reading csv is robust to escape chars
-  df = pd.read_csv(csv_fn, quoting=csv.QUOTE_NONE, delimiter=r",\s?", engine="python")
+  #df = pd.read_csv(csv_fn,  quotechar='\"', quoting=csv.QUOTE_ALL, sep=r",", engine="python", skipinitialspace=True)
+  df = pd.read_csv(csv_fn)
+  df = df.rename(columns=rm_quote)
   df.sort_values(by="fullname", inplace=True)
   df.reset_index(drop=True, inplace=True)
 
   def form_name(row):
-    return "{} ({})".format(row['fullname'], row['shortform'])
+    return '{} ({})'.format(rm_quote(row['fullname']), rm_quote(row['shortform']))
 
   df['name'] = df.apply(form_name, axis=1)
   df['url'].fillna('', inplace=True)
@@ -28,6 +31,7 @@ def main():
     fd.write('[\n')
     for ind, row in df.iterrows():
       fd.write('  {\n')
+      fd.write('    shortform: \"{}\",\n'.format(row['shortform']))
       fd.write('    name: \"{}\",\n'.format(row['name']))
       fd.write('    url: \"{}\"\n'.format(row['url']))
       fd.write('  }')

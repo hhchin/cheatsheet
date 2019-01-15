@@ -11,12 +11,12 @@ $(document).ready(function() {
 
       var fuseOptions = {
         shouldSort: true,
-        threshold: 0.6,
+        threshold: 0.5,
         location: 0,
         distance: 100,
         maxPatternLength: 32,
         minMatchCharLength: 1,
-        keys: ["name"]
+        keys: ["name","shortform"]
       };
       var fuse = new Fuse(masterList, fuseOptions);
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
         var queryTerms = document.getElementById("searchBar").value;
         var result = fuse.search(queryTerms);
         var resultListHTML = "";
-        for (var i = 0; i < result.length; i++) {
+        for (var i = 0; i < Math.min(10, result.length); i++) {
           if (result[i].url === "") {
             resultListHTML +=
             '<li><a>' +
