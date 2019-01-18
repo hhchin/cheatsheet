@@ -301,8 +301,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "HSC",
-    name: "Head Civil Service (HSC)",
+    shortform: "HCS",
+    name: "Head Civil Service (HCS)",
     url: ""
   },
   {
@@ -351,9 +351,44 @@ const masterList =
     url: ""
   },
   {
+    shortform: "IM1",
+    name: "Instruction Manual 1 on Financial Control (IM1)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/Financial-Control.aspx"
+  },
+  {
+    shortform: "IM2",
+    name: "Instruction Manual 2 on Human Resource Management (IM2)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/Staff.aspx"
+  },
+  {
+    shortform: "IM3",
+    name: "Instruction Manual 3 on Procurement (IM3)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/Procurement.aspx"
+  },
+  {
+    shortform: "IM4",
+    name: "Instruction Manual 4 on Asset Management (IM4)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/Asset-Management.aspx"
+  },
+  {
+    shortform: "IM5",
+    name: "Instruction Manual 5 on Revenue Contracting (IM5)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/Revenue-Contracting.aspx"
+  },
+  {
+    shortform: "IM6",
+    name: "Instruction Manual 6 on Office Administration (IM6)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/Office-Admin.aspx"
+  },
+  {
+    shortform: "IM7",
+    name: "Instruction Manual 7 on Public Communications and Quality Service (IM7)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/Quality-Service.aspx"
+  },
+  {
     shortform: "IM8",
-    name: "Instruction Manual 8 for ICT (IM8)",
-    url: "@TODO"
+    name: "Instruction Manual 8 on ICT Management (IM8)",
+    url: "https://intranet.mof.gov.sg/portal/IM/Themes/IT-Management.aspx"
   },
   {
     shortform: "IPI",
@@ -653,6 +688,11 @@ const masterList =
   {
     shortform: "SMS",
     name: "Senior Minister of State (SMS)",
+    url: ""
+  },
+  {
+    shortform: "SSSO",
+    name: "Senior Specialist Staff Officer (SSSO)",
     url: ""
   },
   {
