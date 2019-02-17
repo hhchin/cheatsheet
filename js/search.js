@@ -8,6 +8,7 @@ $(document).ready(function() {
     })
     ).done(function() {
       console.log("total entries in master list: " + masterList.length);
+      $("#resultList").append("Current number of entries: "+ masterList.length);
 
       var fuseOptions = {
         shouldSort: true,
@@ -48,9 +49,7 @@ $(document).ready(function() {
       .getElementById("searchBar")
       .addEventListener("keyup", function(event) {
         event.preventDefault();
-        if (event.keyCode === 13) {
           query();
-        }
       });
   }); //end of main function
   });
