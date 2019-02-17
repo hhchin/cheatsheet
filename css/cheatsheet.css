@@ -5,13 +5,14 @@ body {
 
 .about {
   position: relative;
+  left:20%;
   display: inline-block;
   cursor: pointer;
 }
 
 .about .popuptext {
   visibility: hidden;
-  width: 360px;
+  width: 310px;
   font-size: 12;
   display: block;
   background-color: #c2c2c2;
@@ -93,6 +94,7 @@ body {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .container {
     display: flex;
+    left: 20%;
     align-items: center;
     justify-content: center;
   }
