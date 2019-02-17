@@ -11,20 +11,21 @@ body {
 
 .about .popuptext {
   visibility: hidden;
-  width: 330px;
+  width: 360px;
   font-size: 12;
   display: block;
   background-color: #c2c2c2;
-  opacity: 0.95;
+  opacity: 1;
   color: #000000;
   text-align: left;
   border-radius: 6px;
   padding: 8px 0;
+  padding-left:10px; 
   position: absolute;
   z-index: 1;
-  top: -10px;
-  left: -250px;
-  margin-left: -80px;
+  top: 25px;
+  left: -330px;
+  
 }
 
 .about .show {
@@ -44,7 +45,7 @@ body {
 
 .table {
   display: table;
-  width: 100%;
+  width: 400px;
 }
 .row {
   display: table-row;
@@ -66,7 +67,7 @@ body {
   float: left;
   border: 3px solid #b5222b;
   padding: 5px;
-  height: 40px;
+  height: 25px;
   width: 400px;
   border-radius: 5px;
   outline: none;
@@ -79,32 +80,20 @@ body {
   color: #000;
 }
 
-.searchButton {
-  background-color: #b5222b;
-  -webkit-mask-image: url(/img/search.svg);
-  -webkit-mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: 30px 30px;
-  mask-image: url(/img/search.svg);
-  mask-position: center;
-  mask-repeat: no-repeat;
-  mask-size: 30px 30px;
-  position: absolute;
-  right: 0px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #b5222b;
-  text-align: center;
-  color: #b5222b;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
 .container {
   width: 600px;
   position: absolute;
   top: 5%;
   left: 50%;
+  margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
