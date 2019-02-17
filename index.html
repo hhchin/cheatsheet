@@ -3,6 +3,7 @@
   @author chin, hui han, chin_hui_han@pmo.gov.sg
   @author Choudhary, Nikhil
 -->
+<!DOCTYPE html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/cheatsheet.css" />
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -23,18 +24,24 @@
           <div class="about" onclick="aboutPopup()">
             About
             <span class="popuptext" id="aboutPopup" text-align="left">
-              To feedback on the design, email chin_hui_han@pmo.gov.sg <br>
-              To add more entries, email nikhil_choudhary@tech.gov.sg</span>
+              To feedback on the design, email <br>
+              <a href = "mailto: chin_hui_han@pmo.gov.sg">chin_hui_han@pmo.gov.sg</a><br>
+              <a href = "mailto: nikhil_choudhary@tech.gov.sg">nikhil_choudhary@tech.gov.sg</a><br>
+              <br>
+              To add more entries, go to internet link <br>
+              <img src="img/formQRCode.png" height="300" width="300"> <br>
+              https://www.form.gov.sg/forms/govtech/5c6816e0526d99001034a8be
+            </span>
           </div>
         </div>
       </div>
     </div>
 
     <input
-      type="text"
-      class="searchTerm"
-      placeholder="Got an acronym or term to find?"
-      id="searchBar"
+    type="text"
+    class="searchTerm"
+    placeholder="Got an acronym or term to find?"
+    id="searchBar"
     />
     <div class="result" style="padding: 0;"><ul id="resultList"></ul></div>
   </div>

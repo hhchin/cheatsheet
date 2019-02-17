@@ -25,7 +25,7 @@ body {
   z-index: 1;
   top: 25px;
   left: -330px;
-  
+  word-wrap:break-word;
 }
 
 .about .show {
