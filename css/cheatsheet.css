@@ -56,7 +56,6 @@ body {
 }
 
 .result {
-  width: 100%;
   position: relative;
   top: 40px;
   left: -20px;
@@ -65,10 +64,10 @@ body {
 
 .searchTerm {
   float: left;
-  width: 100%;
   border: 3px solid #b5222b;
   padding: 5px;
   height: 40px;
+  width: 400px;
   border-radius: 5px;
   outline: none;
   font-size: 20px;
@@ -102,8 +101,8 @@ body {
   font-size: 20px;
 }
 
-.wrap {
-  width: 40%;
+.container {
+  width: 600px;
   position: absolute;
   top: 5%;
   left: 50%;

@@ -8,7 +8,7 @@ $(document).ready(function() {
     })
     ).done(function() {
       console.log("total entries in master list: " + masterList.length);
-      $("#resultList").append("Current number of entries: "+ masterList.length);
+      $("#resultList").append("<b>"+ masterList.length+"</b> Entries indexed");
 
       var fuseOptions = {
         shouldSort: true,
@@ -26,25 +26,23 @@ $(document).ready(function() {
         var result = fuse.search(queryTerms);
         var resultListHTML = "";
         for (var i = 0; i < Math.min(10, result.length); i++) {
-          if (result[i].url === "") {
+          if (result[i].url === '') {
             resultListHTML +=
             '<li><a>' +
             result[i].name +
-            "</a></li>";
+            '</a></li>';
           } else {
             resultListHTML +=
             '<li><a href="' +
             result[i].url +
             '" target="_blank">' +
             result[i].name +
-            "</a></li>";
+            '</a></li>';
           }
         }
         $("#resultList").empty();
         $("#resultList").append(resultListHTML);
       }
-
-      document.getElementById("searchSubmit").addEventListener("click", query);
       document
       .getElementById("searchBar")
       .addEventListener("keyup", function(event) {

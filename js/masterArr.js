@@ -126,11 +126,6 @@ const masterList =
     url: ""
   },
   {
-    shortform: "CDSO",
-    name: "Chief Digital Strategy Officers (CDSO)",
-    url: ""
-  },
-  {
     shortform: "CE",
     name: "Chief Executive (CE)",
     url: ""
@@ -186,13 +181,13 @@ const masterList =
     url: ""
   },
   {
-    shortform: "CSDM",
-    name: "Complex Systems Design & Management (CSDM)",
+    shortform: "COPS",
+    name: "Community of Permenant Secretaries (COPS)",
     url: ""
   },
   {
-    shortform: "CSD&M",
-    name: "Conference on Complex Systems Design & Management (CSD&M)",
+    shortform: "CSDM",
+    name: "Complex Systems Design & Management (CSDM)",
     url: ""
   },
   {
@@ -367,7 +362,7 @@ const masterList =
   },
   {
     shortform: "FGD",
-    name: "Focus Group Discussions (FGD)",
+    name: "Focus Group Discussion (FGD)",
     url: ""
   },
   {
@@ -388,6 +383,11 @@ const masterList =
   {
     shortform: "GCP",
     name: "Google Cloud Platform (GCP)",
+    url: ""
+  },
+  {
+    shortform: "GITSIR",
+    name: "GovTech - Government IT Security Incident Response (GITSIR)",
     url: ""
   },
   {
@@ -436,11 +436,6 @@ const masterList =
     url: ""
   },
   {
-    shortform: "GITSIR",
-    name: "Government IT Security Incident Response (GITSIR)",
-    url: ""
-  },
-  {
     shortform: "GICS",
     name: "Government Infra CyberSecurity Services (GICS)",
     url: ""
@@ -463,11 +458,6 @@ const masterList =
   {
     shortform: "GSS",
     name: "Government Security Services (GSS)",
-    url: ""
-  },
-  {
-    shortform: "GSIB",
-    name: "Government Standard Image Baseline (GSIB)",
     url: ""
   },
   {
@@ -922,7 +912,7 @@ const masterList =
   },
   {
     shortform: "RSS",
-    name: "Really Simple Syndication; Rich Site Summary (RSS)",
+    name: "Really Simple Syndication (RSS)",
     url: ""
   },
   {
@@ -938,6 +928,11 @@ const masterList =
   {
     shortform: "ROI",
     name: "Return on Investment (ROI)",
+    url: ""
+  },
+  {
+    shortform: "RSS",
+    name: "Rich Site Summary (RSS)",
     url: ""
   },
   {
@@ -1231,28 +1226,23 @@ const masterList =
     url: ""
   },
   {
+    shortform: "WOGSOs",
+    name: "Whole of Goverment Strategic Outcomes (WOGSOs)",
+    url: ""
+  },
+  {
     shortform: "WOG",
     name: "Whole of Government (WOG)",
     url: ""
   },
   {
-    shortform: "WOG",
-    name: "Whole of Govt (WOG)",
-    url: ""
-  },
-  {
     shortform: "WOGAA",
-    name: "Whole of Govt Application Analytics (WOGAA)",
-    url: ""
-  },
-  {
-    shortform: "WOGSOs",
-    name: "Whole of Govt Strategic Outcomes (WOGSOs)",
+    name: "Whole of Government Application Analytics (WOGAA)",
     url: ""
   },
   {
     shortform: "WSMC",
-    name: "Whole-of-Government Sensor Master Planner Committee (WSMC)",
+    name: "Whole of Government Sensor Master Planner Committee (WSMC)",
     url: ""
   },
   {
