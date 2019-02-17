@@ -1,6 +1,11 @@
 const masterList = 
 [
   {
+    shortform: "APEX",
+    name: "API Gateway (APEX)",
+    url: ""
+  },
+  {
     shortform: "APIX",
     name: "API eXchange (APIX)",
     url: ""
@@ -11,6 +16,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "ADP",
+    name: "Agency Digitalisation Plans (ADP)",
+    url: ""
+  },
+  {
     shortform: "AStar",
     name: "Agency for Science, Technology and Research (AStar)",
     url: ""
@@ -18,6 +28,16 @@ const masterList =
   {
     shortform: "AWS",
     name: "Amazon Web Services (AWS)",
+    url: ""
+  },
+  {
+    shortform: "ASA",
+    name: "Annual Security Assessment (ASA)",
+    url: ""
+  },
+  {
+    shortform: "AIAS",
+    name: "Application Infrastructure Architecture Standards  (AIAS)",
     url: ""
   },
   {
@@ -76,6 +96,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "COG",
+    name: "Center of Government (COG)",
+    url: ""
+  },
+  {
     shortform: "CNB",
     name: "Central Narcotics Bureau (CNB)",
     url: ""
@@ -86,6 +111,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "Centexes",
+    name: "Centres of Excellence (Centexes)",
+    url: ""
+  },
+  {
     shortform: "CDO",
     name: "Chief Data Officer (CDO)",
     url: ""
@@ -93,6 +123,11 @@ const masterList =
   {
     shortform: "CDSO",
     name: "Chief Digital Strategy Officer (CDSO)",
+    url: ""
+  },
+  {
+    shortform: "CDSO",
+    name: "Chief Digital Strategy Officers (CDSO)",
     url: ""
   },
   {
@@ -121,8 +156,28 @@ const masterList =
     url: ""
   },
   {
+    shortform: "CSP",
+    name: "Cloud Service Provider (CSP)",
+    url: ""
+  },
+  {
+    shortform: "COPS",
+    name: "Committee of Permanent Secretaries meeting (COPS)",
+    url: ""
+  },
+  {
+    shortform: "COS",
+    name: "Committee of Supply (COS)",
+    url: ""
+  },
+  {
     shortform: "CDR",
     name: "Common Data Representation (CDR)",
+    url: ""
+  },
+  {
+    shortform: "CMG",
+    name: "Communications & Marketing Group (GovTech) (CMG)",
     url: ""
   },
   {
@@ -146,6 +201,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "CWP",
+    name: "Content Web Platform (CWP)",
+    url: ""
+  },
+  {
     shortform: "Codex",
     name: "Core Operations Development Environment and eXchange (Codex)",
     url: ""
@@ -158,6 +218,11 @@ const masterList =
   {
     shortform: "CSA",
     name: "Cyber Security Agency (CSA)",
+    url: ""
+  },
+  {
+    shortform: "CWC",
+    name: "Cyber Watch Centre (CWC)",
     url: ""
   },
   {
@@ -176,6 +241,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "DPC",
+    name: "Development Planning Committee (DPC)",
+    url: ""
+  },
+  {
     shortform: "DE",
     name: "Digital Economy (DE)",
     url: ""
@@ -186,8 +256,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "DGB",
+    name: "Digital Government Blue Print (DGB)",
+    url: ""
+  },
+  {
     shortform: "DISG",
     name: "Digital Industry Singapore (DISG)",
+    url: ""
+  },
+  {
+    shortform: "DSS",
+    name: "Digital Service Standard (DSS)",
     url: ""
   },
   {
@@ -201,8 +281,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "DWP",
+    name: "Digital Work Place (DWP)",
+    url: ""
+  },
+  {
     shortform: "DC",
     name: "Distribution Centre (DC)",
+    url: ""
+  },
+  {
+    shortform: "DCS",
+    name: "Document Collaboration Service (DCS)",
     url: ""
   },
   {
@@ -211,8 +301,23 @@ const masterList =
     url: ""
   },
   {
+    shortform: "EPS",
+    name: "Electronic Public Services (EPS)",
+    url: ""
+  },
+  {
     shortform: "ERP",
     name: "Electronic Road Pricing (ERP)",
+    url: ""
+  },
+  {
+    shortform: "ETA",
+    name: "Electronic Transaction Act (ETA)",
+    url: ""
+  },
+  {
+    shortform: "EOL",
+    name: "End of Life (EOL)",
     url: ""
   },
   {
@@ -236,8 +341,33 @@ const masterList =
     url: ""
   },
   {
+    shortform: "ETMS",
+    name: "Enterprise Threat Management Service (ETMS)",
+    url: ""
+  },
+  {
+    shortform: "EVS",
+    name: "Enterprise Voice Service (EVS)",
+    url: ""
+  },
+  {
     shortform: "EXCO",
     name: "Executive Committee (EXCO)",
+    url: ""
+  },
+  {
+    shortform: "EOM",
+    name: "Expenditure of Manpower (EOM)",
+    url: ""
+  },
+  {
+    shortform: "FFE",
+    name: "File & Folder Encryption (FFE)",
+    url: ""
+  },
+  {
+    shortform: "FGD",
+    name: "Focus Group Discussions (FGD)",
     url: ""
   },
   {
@@ -251,8 +381,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "FEC",
+    name: "Future Economy Committee (FEC)",
+    url: ""
+  },
+  {
     shortform: "GCP",
     name: "Google Cloud Platform (GCP)",
+    url: ""
+  },
+  {
+    shortform: "GIG",
+    name: "GovTech - Government Infrastructure Group (GIG)",
     url: ""
   },
   {
@@ -266,8 +406,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "GCHE",
+    name: "Government Compliant Hosting Environment (GCHE)",
+    url: ""
+  },
+  {
     shortform: "GDC",
     name: "Government Data Center (GDC)",
+    url: ""
+  },
+  {
+    shortform: "GDC",
+    name: "Government Data Centre (GDC)",
     url: ""
   },
   {
@@ -276,8 +426,43 @@ const masterList =
     url: ""
   },
   {
+    shortform: "GDSC",
+    name: "Government Data Steering Committees (GDSC)",
+    url: ""
+  },
+  {
+    shortform: "GEN",
+    name: "Government Enterprise Network (GEN)",
+    url: ""
+  },
+  {
+    shortform: "GITSIR",
+    name: "Government IT Security Incident Response (GITSIR)",
+    url: ""
+  },
+  {
+    shortform: "GICS",
+    name: "Government Infra CyberSecurity Services (GICS)",
+    url: ""
+  },
+  {
+    shortform: "GNOC",
+    name: "Government Network Operations Centre (GNOC)",
+    url: ""
+  },
+  {
+    shortform: "GPC",
+    name: "Government Parliamentary Committee  (GPC)",
+    url: ""
+  },
+  {
     shortform: "GPC",
     name: "Government Private Cloud (GPC)",
+    url: ""
+  },
+  {
+    shortform: "GSS",
+    name: "Government Security Services (GSS)",
     url: ""
   },
   {
@@ -286,8 +471,28 @@ const masterList =
     url: ""
   },
   {
+    shortform: "GSIB",
+    name: "Government Standard Image Build (GSIB)",
+    url: ""
+  },
+  {
     shortform: "GovTech",
     name: "Government Technology Agency (GovTech)",
+    url: ""
+  },
+  {
+    shortform: "GWS-X",
+    name: "Government Web Services Exchange (GWS-X)",
+    url: ""
+  },
+  {
+    shortform: "G2B",
+    name: "Government to Business (G2B)",
+    url: ""
+  },
+  {
+    shortform: "GRL",
+    name: "Grass Roots Leaders (GRL)",
     url: ""
   },
   {
@@ -346,6 +551,21 @@ const masterList =
     url: ""
   },
   {
+    shortform: "IaaS",
+    name: "Infrastructure as a Service (IaaS)",
+    url: ""
+  },
+  {
+    shortform: "IOC",
+    name: "Initial Operational Capability (IOC)",
+    url: ""
+  },
+  {
+    shortform: "IMCS",
+    name: "Instant Messaging and Conferencing Service (IMCS)",
+    url: ""
+  },
+  {
     shortform: "I2R",
     name: "Institute for Infocomm Research (I2R)",
     url: ""
@@ -391,8 +611,18 @@ const masterList =
     url: "https://intranet.mof.gov.sg/portal/IM/Themes/IT-Management.aspx"
   },
   {
+    shortform: "IOC",
+    name: "Integrated Operations Centre (IOC)",
+    url: ""
+  },
+  {
     shortform: "IPI",
     name: "Intellectual Property Intermediary (IPI)",
+    url: ""
+  },
+  {
+    shortform: "IMC",
+    name: "Inter Ministerial Committee (IMC)",
     url: ""
   },
   {
@@ -431,6 +661,26 @@ const masterList =
     url: ""
   },
   {
+    shortform: "LTSS",
+    name: "Long Term Service Support (LTSS)",
+    url: ""
+  },
+  {
+    shortform: "MRO",
+    name: "Maintenance Repair Overhaul (MRO)",
+    url: ""
+  },
+  {
+    shortform: "MHI",
+    name: "Managed Hosting Infrastructure (MHI)",
+    url: ""
+  },
+  {
+    shortform: "MMF",
+    name: "Manpower Management Framework (MMF)",
+    url: ""
+  },
+  {
     shortform: "MBC",
     name: "Mapletree Business Center (MBC)",
     url: ""
@@ -458,6 +708,11 @@ const masterList =
   {
     shortform: "MOS",
     name: "Minister of State (MOS)",
+    url: ""
+  },
+  {
+    shortform: "MFDP",
+    name: "Ministry Family Digitalisation Plans (MFDP)",
     url: ""
   },
   {
@@ -506,6 +761,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "MND",
+    name: "Ministry of National Development (MND)",
+    url: ""
+  },
+  {
     shortform: "MTI",
     name: "Ministry of Trade and Industry (MTI)",
     url: ""
@@ -513,6 +773,11 @@ const masterList =
   {
     shortform: "MOT",
     name: "Ministry of Transport (MOT)",
+    url: ""
+  },
+  {
+    shortform: "MOL",
+    name: "Moments of Life (MOL)",
     url: ""
   },
   {
@@ -536,6 +801,16 @@ const masterList =
     url: ""
   },
   {
+    shortform: "NHP",
+    name: "National Healthy Population (NHP)",
+    url: ""
+  },
+  {
+    shortform: "NIST",
+    name: "National Institute of Standards and Technology (NIST)",
+    url: ""
+  },
+  {
     shortform: "NParks",
     name: "National Park Board (NParks)",
     url: ""
@@ -543,6 +818,11 @@ const masterList =
   {
     shortform: "NSC",
     name: "National Speech Corpus (NSC)",
+    url: ""
+  },
+  {
+    shortform: "NoSQL",
+    name: "Next Order Structed Query Language (NoSQL)",
     url: ""
   },
   {
@@ -561,6 +841,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "SBRM",
+    name: "PS-Level Strategic Budget Review Meetings (SBRM)",
+    url: ""
+  },
+  {
     shortform: "PS",
     name: "Permanent Secretary (PS)",
     url: ""
@@ -569,6 +854,11 @@ const masterList =
     shortform: "PDPA",
     name: "Personal Data Protection Act 2012 (PDPA)",
     url: "https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview"
+  },
+  {
+    shortform: "PaaS",
+    name: "Platform as a Service (PaaS)",
+    url: ""
   },
   {
     shortform: "POS",
@@ -601,6 +891,21 @@ const masterList =
     url: ""
   },
   {
+    shortform: "PSIRC",
+    name: "Public Sector Infocomm Review Committee (PSIRC)",
+    url: ""
+  },
+  {
+    shortform: "PSD",
+    name: "Public Service Division (PSD)",
+    url: ""
+  },
+  {
+    shortform: "PST",
+    name: "Public Service Transformation (PST)",
+    url: ""
+  },
+  {
     shortform: "PDD",
     name: "Punggol Digital District (PDD)",
     url: ""
@@ -618,6 +923,11 @@ const masterList =
   {
     shortform: "RSS",
     name: "Really Simple Syndication; Rich Site Summary (RSS)",
+    url: ""
+  },
+  {
+    shortform: "RF",
+    name: "Reinvestment Fund (RF)",
     url: ""
   },
   {
@@ -643,6 +953,11 @@ const masterList =
   {
     shortform: "RPCA",
     name: "Robust Principal Component Analysis (RPCA)",
+    url: ""
+  },
+  {
+    shortform: "SCM",
+    name: "SNDGO Circular Minutes (SCM)",
     url: ""
   },
   {
@@ -681,6 +996,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "SCS",
+    name: "Security Compliance Service (SCS)",
+    url: ""
+  },
+  {
     shortform: "SLM",
     name: "Senior Level Management (SLM)",
     url: ""
@@ -688,6 +1008,11 @@ const masterList =
   {
     shortform: "SMS",
     name: "Senior Minister of State (SMS)",
+    url: ""
+  },
+  {
+    shortform: "SPSL",
+    name: "Senior Public Service Leadership (SPSL)",
     url: ""
   },
   {
@@ -711,6 +1036,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "SG-TRM",
+    name: "Singapore Government Technology (ICT) Reference Modal (SG-TRM)",
+    url: ""
+  },
+  {
     shortform: "SMCCI",
     name: "Singapore Malay Chamber of Commerce & Industry (SMCCI)",
     url: ""
@@ -728,6 +1058,11 @@ const masterList =
   {
     shortform: "SPS",
     name: "Singapore Prison Service (SPS)",
+    url: ""
+  },
+  {
+    shortform: "SPS",
+    name: "Singapore Public Service (SPS)",
     url: ""
   },
   {
@@ -756,6 +1091,16 @@ const masterList =
     url: ""
   },
   {
+    shortform: "SNIW",
+    name: "Smart Nation Innovations Week (SNIW)",
+    url: ""
+  },
+  {
+    shortform: "SNSP",
+    name: "Smart Nation Sensor Platform (SNSP)",
+    url: ""
+  },
+  {
     shortform: "SNDGG",
     name: "Smart Nation and Digital Government Group (SNDGG)",
     url: ""
@@ -768,6 +1113,11 @@ const masterList =
   {
     shortform: "SDLC",
     name: "Software Development Life Cycle (SDLC)",
+    url: ""
+  },
+  {
+    shortform: "SaaS",
+    name: "Software as a Service (SaaS)",
     url: ""
   },
   {
@@ -796,6 +1146,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "TeNHP",
+    name: "Technology Enabled National Healthy Population (TeNHP)",
+    url: ""
+  },
+  {
     shortform: "TIG",
     name: "Technology Infrastructure Group (TIG)",
     url: ""
@@ -806,6 +1161,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "TOR",
+    name: "Terms of Reference (TOR)",
+    url: ""
+  },
+  {
     shortform: "TNP",
     name: "The New Paper (TNP)",
     url: ""
@@ -813,6 +1173,11 @@ const masterList =
   {
     shortform: "TIH",
     name: "Tourism Information & Services Hub (TIH)",
+    url: ""
+  },
+  {
+    shortform: "TSF",
+    name: "Transformation Support Fund (TSF)",
     url: ""
   },
   {
@@ -856,8 +1221,43 @@ const masterList =
     url: ""
   },
   {
+    shortform: "VMS",
+    name: "Vulnerability Management Service (VMS)",
+    url: ""
+  },
+  {
+    shortform: "WIS",
+    name: "Web Interface Standards (WIS)",
+    url: ""
+  },
+  {
     shortform: "WOG",
     name: "Whole of Government (WOG)",
+    url: ""
+  },
+  {
+    shortform: "WOG",
+    name: "Whole of Govt (WOG)",
+    url: ""
+  },
+  {
+    shortform: "WOGAA",
+    name: "Whole of Govt Application Analytics (WOGAA)",
+    url: ""
+  },
+  {
+    shortform: "WOGSOs",
+    name: "Whole of Govt Strategic Outcomes (WOGSOs)",
+    url: ""
+  },
+  {
+    shortform: "WSMC",
+    name: "Whole-of-Government Sensor Master Planner Committee (WSMC)",
+    url: ""
+  },
+  {
+    shortform: "WTO",
+    name: "World Trade Organization (WTO)",
     url: ""
   }
 ]
