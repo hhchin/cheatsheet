@@ -157,7 +157,7 @@ const masterList =
   },
   {
     shortform: "COPS",
-    name: "Committee of Permanent Secretaries meeting (COPS)",
+    name: "Committee of Permanent Secretaries (COPS)",
     url: ""
   },
   {
@@ -178,11 +178,6 @@ const masterList =
   {
     shortform: "CoP",
     name: "Communities of Practice (CoP)",
-    url: ""
-  },
-  {
-    shortform: "COPS",
-    name: "Community of Permenant Secretaries (COPS)",
     url: ""
   },
   {
