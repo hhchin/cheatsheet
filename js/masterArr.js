@@ -116,6 +116,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "CAG",
+    name: "Changi Airport Group (CAG)",
+    url: ""
+  },
+  {
     shortform: "CDO",
     name: "Chief Data Officer (CDO)",
     url: ""
@@ -303,6 +308,11 @@ const masterList =
   {
     shortform: "ETA",
     name: "Electronic Transaction Act (ETA)",
+    url: ""
+  },
+  {
+    shortform: "EP",
+    name: "Employment Pass (EP)",
     url: ""
   },
   {
