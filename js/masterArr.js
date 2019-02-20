@@ -407,11 +407,6 @@ const masterList =
   },
   {
     shortform: "GDC",
-    name: "Government Data Center (GDC)",
-    url: ""
-  },
-  {
-    shortform: "GDC",
     name: "Government Data Centre (GDC)",
     url: ""
   },
@@ -473,6 +468,11 @@ const masterList =
   {
     shortform: "G2B",
     name: "Government to Business (G2B)",
+    url: ""
+  },
+  {
+    shortform: "CSG",
+    name: "Govtech - Cyber Security Group (CSG)",
     url: ""
   },
   {
