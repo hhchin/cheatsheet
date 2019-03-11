@@ -116,6 +116,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "AES",
+    name: "Advanced Encryption Standard (AES)",
+    url: ""
+  },
+  {
     shortform: "ASAS",
     name: "Advertising Standards Authority of Singapore (ASAS)",
     url: ""
@@ -162,7 +167,7 @@ const masterList =
   },
   {
     shortform: "AVA",
-    name: "Agri-Food & Veterinary Authority Of Singapore (AVA)",
+    name: "Agri-Food & Veterinary Authority of Singapore (AVA)",
     url: ""
   },
   {
@@ -302,7 +307,7 @@ const masterList =
   },
   {
     shortform: "AOR",
-    name: "Approval of Requirement (AOR)",
+    name: "Approval Of Requirement (AOR)",
     url: ""
   },
   {
@@ -541,8 +546,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "bim",
-    name: "Building Information Modelling (bim)",
+    shortform: "BIM",
+    name: "Building Information Modelling (BIM)",
     url: ""
   },
   {
@@ -697,7 +702,7 @@ const masterList =
   },
   {
     shortform: "COG",
-    name: "Center of Government (COG)",
+    name: "Center Of Government (COG)",
     url: ""
   },
   {
@@ -761,6 +766,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "COISCM",
+    name: "Centre Of Innovation for Supply Chain Management (COISCM)",
+    url: ""
+  },
+  {
     shortform: "CLC",
     name: "Centre for Liveable Cities (CLC)",
     url: ""
@@ -776,28 +786,18 @@ const masterList =
     url: ""
   },
   {
-    shortform: "CoG",
-    name: "Centre of Government (CoG)",
-    url: ""
-  },
-  {
-    shortform: "COISCM",
-    name: "Centre of Innovation for Supply Chain Management (COISCM)",
-    url: ""
-  },
-  {
     shortform: "Centexes",
     name: "Centres of Excellence (Centexes)",
     url: ""
   },
   {
     shortform: "COC",
-    name: "Certificate of Completion (COC)",
+    name: "Certificate Of Completion (COC)",
     url: ""
   },
   {
     shortform: "COE",
-    name: "Certificate of Entitlement (COE)",
+    name: "Certificate Of Entitlement (COE)",
     url: ""
   },
   {
@@ -922,11 +922,6 @@ const masterList =
   },
   {
     shortform: "CAAS",
-    name: "Civil Aviation Authority Of Singapore (CAAS)",
-    url: ""
-  },
-  {
-    shortform: "CAAS",
     name: "Civil Aviation Authority of Singapore (CAAS)",
     url: ""
   },
@@ -982,7 +977,7 @@ const masterList =
   },
   {
     shortform: "COC",
-    name: "Code of Conduct (COC)",
+    name: "Code Of Conduct (COC)",
     url: ""
   },
   {
@@ -1007,12 +1002,12 @@ const masterList =
   },
   {
     shortform: "COPS",
-    name: "Committee of Permanent Secretaries (COPS)",
+    name: "Committee Of Permanent Secretaries (COPS)",
     url: ""
   },
   {
     shortform: "COS",
-    name: "Committee of Supply (COS)",
+    name: "Committee Of Supply (COS)",
     url: ""
   },
   {
@@ -1051,8 +1046,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "CoP",
-    name: "Community of Practices (CoP)",
+    shortform: "COP",
+    name: "Community Of Practices (COP)",
     url: ""
   },
   {
@@ -1093,6 +1088,16 @@ const masterList =
   {
     shortform: "CSIRT",
     name: "Computer Security Incident Response Teams (CSIRT)",
+    url: ""
+  },
+  {
+    shortform: "CONOPS",
+    name: "Concept of Operations (CONOPS)",
+    url: ""
+  },
+  {
+    shortform: "CIA",
+    name: "Confidentiality, Integrity, Availability (CIA)",
     url: ""
   },
   {
@@ -1242,11 +1247,6 @@ const masterList =
   },
   {
     shortform: "CSA",
-    name: "Cyber Security Agency (CSA)",
-    url: ""
-  },
-  {
-    shortform: "CSA",
     name: "Cyber Security Agency of Singapore (CSA)",
     url: ""
   },
@@ -1327,7 +1327,7 @@ const masterList =
   },
   {
     shortform: "DOS",
-    name: "Department of Statistics (DOS)",
+    name: "Department Of Statistics (DOS)",
     url: ""
   },
   {
@@ -1361,8 +1361,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "dfma",
-    name: "Design for Manufacturing & Assembly (dfma)",
+    shortform: "DFMA",
+    name: "Design for Manufacturing & Assembly (DFMA)",
     url: ""
   },
   {
@@ -1408,11 +1408,6 @@ const masterList =
   {
     shortform: "DESSA",
     name: "Digital Economy Smart Services Architecture (DESSA)",
-    url: ""
-  },
-  {
-    shortform: "DGB",
-    name: "Digital Government Blue Print (DGB)",
     url: ""
   },
   {
@@ -1711,13 +1706,13 @@ const masterList =
     url: ""
   },
   {
-    shortform: "EUSH",
-    name: "End User Self-Help Portal (EUSH)",
+    shortform: "EOL",
+    name: "End Of Life (EOL)",
     url: ""
   },
   {
-    shortform: "EOL",
-    name: "End of Life (EOL)",
+    shortform: "EUSH",
+    name: "End User Self-Help Portal (EUSH)",
     url: ""
   },
   {
@@ -1816,13 +1811,13 @@ const masterList =
     url: ""
   },
   {
-    shortform: "EPPU",
-    name: "Expenditure and Policies Procurement Unit, MOF (EPPU)",
+    shortform: "EOM",
+    name: "Expenditure Of Manpower (EOM)",
     url: ""
   },
   {
-    shortform: "EOM",
-    name: "Expenditure of Manpower (EOM)",
+    shortform: "EPPU",
+    name: "Expenditure and Policies Procurement Unit, MOF (EPPU)",
     url: ""
   },
   {
@@ -2237,12 +2232,7 @@ const masterList =
   },
   {
     shortform: "GovTech",
-    name: "Government Technology Agency (GovTech)",
-    url: ""
-  },
-  {
-    shortform: "GOVTECH",
-    name: "Government Technology Agency of Singapore (GOVTECH)",
+    name: "Government Technology Agency of Singapore (GovTech)",
     url: ""
   },
   {
@@ -2353,11 +2343,6 @@ const masterList =
   {
     shortform: "HPB",
     name: "Health Promotion Board (HPB)",
-    url: ""
-  },
-  {
-    shortform: "HSA",
-    name: "Health Science Authority (HSA)",
     url: ""
   },
   {
@@ -2671,8 +2656,8 @@ const masterList =
     url: "https://intranet.mof.gov.sg/portal/IM/Themes/IT-Management.aspx"
   },
   {
-    shortform: "iem",
-    name: "Integrated Environment Modeller (iem)",
+    shortform: "IEM",
+    name: "Integrated Environment Modeller (IEM)",
     url: ""
   },
   {
@@ -2916,8 +2901,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "lps",
-    name: "Large Panel Slab (lps)",
+    shortform: "LPS",
+    name: "Large Panel Slab (LPS)",
     url: ""
   },
   {
@@ -2947,17 +2932,17 @@ const masterList =
   },
   {
     shortform: "LOA",
-    name: "Leave of Absence (LOA)",
+    name: "Leave Of Absence (LOA)",
     url: ""
   },
   {
     shortform: "LOA",
-    name: "Letter of Approval (LOA)",
+    name: "Letter Of Approval (LOA)",
     url: ""
   },
   {
     shortform: "LOA",
-    name: "Letter of Award (LOA)",
+    name: "Letter Of Award (LOA)",
     url: ""
   },
   {
@@ -3157,7 +3142,7 @@ const masterList =
   },
   {
     shortform: "MOI",
-    name: "Memorandum of Intent (MOI)",
+    name: "Memorandum Of Intent (MOI)",
     url: ""
   },
   {
@@ -3221,11 +3206,6 @@ const masterList =
     url: ""
   },
   {
-    shortform: "MOS",
-    name: "Minister of State (MOS)",
-    url: ""
-  },
-  {
     shortform: "MSM",
     name: "Ministerial Staff Meeting (MSM)",
     url: ""
@@ -3241,28 +3221,13 @@ const masterList =
     url: ""
   },
   {
-    shortform: "MFDP",
-    name: "Ministry Family Digitalisation Plans (MFDP)",
-    url: ""
-  },
-  {
     shortform: "MMBA",
     name: "Ministry Medical Benefits Administrator (MMBA)",
     url: ""
   },
   {
-    shortform: "MCI",
-    name: "Ministry Of Communications and Information (MCI)",
-    url: ""
-  },
-  {
     shortform: "MCCY",
     name: "Ministry Of Culture, Community And Youth (MCCY)",
-    url: ""
-  },
-  {
-    shortform: "MINDEF",
-    name: "Ministry Of Defence (MINDEF)",
     url: ""
   },
   {
@@ -3276,18 +3241,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "MFA",
-    name: "Ministry Of Foreign Affairs (MFA)",
-    url: ""
-  },
-  {
     shortform: "MOH",
     name: "Ministry Of Health (MOH)",
-    url: ""
-  },
-  {
-    shortform: "MLAW",
-    name: "Ministry Of Law (MLAW)",
     url: ""
   },
   {
@@ -3296,23 +3251,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "MND",
-    name: "Ministry Of National Development (MND)",
-    url: ""
-  },
-  {
     shortform: "MSF",
     name: "Ministry Of Social And Family Development (MSF)",
-    url: ""
-  },
-  {
-    shortform: "MEWR",
-    name: "Ministry Of The Environment And Water Resources (MEWR)",
-    url: ""
-  },
-  {
-    shortform: "MTI",
-    name: "Ministry Of Trade And Industry (MTI)",
     url: ""
   },
   {
@@ -3331,28 +3271,13 @@ const masterList =
     url: ""
   },
   {
-    shortform: "MOE",
-    name: "Ministry of Education (MOE)",
-    url: ""
-  },
-  {
     shortform: "MEWR",
     name: "Ministry of Environment and Water Resources (MEWR)",
     url: ""
   },
   {
-    shortform: "MOF",
-    name: "Ministry of Finance (MOF)",
-    url: ""
-  },
-  {
     shortform: "MFA",
     name: "Ministry of Foreign Affairs (MFA)",
-    url: ""
-  },
-  {
-    shortform: "MOH",
-    name: "Ministry of Health (MOH)",
     url: ""
   },
   {
@@ -3366,11 +3291,6 @@ const masterList =
     url: ""
   },
   {
-    shortform: "MOM",
-    name: "Ministry of Manpower (MOM)",
-    url: ""
-  },
-  {
     shortform: "MND",
     name: "Ministry of National Development (MND)",
     url: ""
@@ -3378,11 +3298,6 @@ const masterList =
   {
     shortform: "MTI",
     name: "Ministry of Trade and Industry (MTI)",
-    url: ""
-  },
-  {
-    shortform: "MOT",
-    name: "Ministry of Transport (MOT)",
     url: ""
   },
   {
@@ -3402,7 +3317,7 @@ const masterList =
   },
   {
     shortform: "MOL",
-    name: "Moments of Life (MOL)",
+    name: "Moments Of Life (MOL)",
     url: ""
   },
   {
@@ -3456,14 +3371,9 @@ const masterList =
     url: ""
   },
   {
-    shortform: "MCG",
-    name: "Multi company group (MCG)",
-    url: ""
-  },
-  {
     shortform: "MCF",
-    name: "My Careers Future, mycareersfuture.sg (MCF)",
-    url: ""
+    name: "My Careers Future (MCF)",
+    url: "mycareersfuture.sg"
   },
   {
     shortform: "MMT",
@@ -3846,8 +3756,13 @@ const masterList =
     url: ""
   },
   {
+    shortform: "ORBAT",
+    name: "Order of Battle (ORBAT)",
+    url: ""
+  },
+  {
     shortform: "OOM",
-    name: "Orders of magnitude (OOM)",
+    name: "Orders Of magnitude (OOM)",
     url: ""
   },
   {
@@ -3901,18 +3816,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "OOB",
+    name: "Out Of Brand (OOB)",
+    url: ""
+  },
+  {
     shortform: "OOO",
     name: "Out Of Office (OOO)",
     url: ""
   },
   {
-    shortform: "Oob",
-    name: "Out of Brand (Oob)",
-    url: ""
-  },
-  {
     shortform: "OOM",
-    name: "Out of memory (OOM)",
+    name: "Out Of memory (OOM)",
     url: ""
   },
   {
@@ -4118,11 +4033,6 @@ const masterList =
   {
     shortform: "PDPA",
     name: "Personal Data Protection Act (PDPA)",
-    url: ""
-  },
-  {
-    shortform: "PDPA",
-    name: "Personal Data Protection Act 2012 (PDPA)",
     url: "https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview"
   },
   {
@@ -4266,11 +4176,6 @@ const masterList =
     url: ""
   },
   {
-    shortform: "PMO",
-    name: "Prime Ministers Office (PMO)",
-    url: ""
-  },
-  {
     shortform: "PORTS",
     name: "Prisons Operations and Rehabilitation System (PORTS)",
     url: ""
@@ -4351,18 +4256,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "POC",
-    name: "Proof-Of-Concept (POC)",
-    url: ""
-  },
-  {
     shortform: "PP",
     name: "Protection Profile (PP)",
-    url: ""
-  },
-  {
-    shortform: "PDA",
-    name: "Public Displays of Affection (PDA)",
     url: ""
   },
   {
@@ -4582,7 +4477,7 @@ const masterList =
   },
   {
     shortform: "ROM",
-    name: "Registry of Marriages (ROM)",
+    name: "Registry Of Marriages (ROM)",
     url: ""
   },
   {
@@ -4658,11 +4553,6 @@ const masterList =
   {
     shortform: "RSS",
     name: "Retirement Sum Scheme (RSS)",
-    url: ""
-  },
-  {
-    shortform: "ROI",
-    name: "Return On Investment (ROI)",
     url: ""
   },
   {
@@ -4762,7 +4652,7 @@ const masterList =
   },
   {
     shortform: "SOW",
-    name: "Scheme of Work (SOW)",
+    name: "Scheme Of Work (SOW)",
     url: ""
   },
   {
@@ -4777,7 +4667,7 @@ const masterList =
   },
   {
     shortform: "SOW",
-    name: "Scope of Work (SOW)",
+    name: "Scope Of Work (SOW)",
     url: ""
   },
   {
@@ -5376,6 +5266,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "STRIDE",
+    name: "Spoofing, Tampering, Repudiation, Information disclosure, Denial of Service, Elevation of Privilege (STRIDE)",
+    url: ""
+  },
+  {
     shortform: "SPORTSG",
     name: "Sport Singapore (SPORTSG)",
     url: ""
@@ -5432,7 +5327,7 @@ const masterList =
   },
   {
     shortform: "SOW",
-    name: "Statement of Work (SOW)",
+    name: "Statement Of Work (SOW)",
     url: ""
   },
   {
@@ -5582,7 +5477,7 @@ const masterList =
   },
   {
     shortform: "TAS",
-    name: "Telecommunication Authority of SIngapore (TAS)",
+    name: "Telecommunication Authority of Singapore (TAS)",
     url: ""
   },
   {
@@ -5622,7 +5517,7 @@ const masterList =
   },
   {
     shortform: "TOR",
-    name: "Terms of Reference (TOR)",
+    name: "Terms Of Reference (TOR)",
     url: ""
   },
   {
@@ -5826,11 +5721,6 @@ const masterList =
     url: ""
   },
   {
-    shortform: "UX",
-    name: "User Experience (UX)",
-    url: ""
-  },
-  {
     shortform: "UI",
     name: "User Interface (UI)",
     url: ""
@@ -5977,11 +5867,6 @@ const masterList =
   },
   {
     shortform: "WIS",
-    name: "Web Interface Standard (WIS)",
-    url: ""
-  },
-  {
-    shortform: "WIS",
     name: "Web Interface Standards (WIS)",
     url: ""
   },
@@ -6031,33 +5916,23 @@ const masterList =
     url: ""
   },
   {
-    shortform: "WOGSOs",
-    name: "Whole of Goverment Strategic Outcomes (WOGSOs)",
-    url: ""
-  },
-  {
-    shortform: "WOG",
-    name: "Whole of Government (WOG)",
-    url: ""
-  },
-  {
-    shortform: "WOGAA",
-    name: "Whole of Government Application Analytics (WOGAA)",
-    url: ""
-  },
-  {
     shortform: "WSMC",
     name: "Whole of Government Sensor Master Planner Committee (WSMC)",
     url: ""
   },
   {
     shortform: "WOGAA",
-    name: "Whole-of-Government Application Analytics (WOGAA)",
+    name: "Whole-Of-Government Application Analytics (WOGAA)",
     url: ""
   },
   {
     shortform: "WOGSO",
     name: "Whole-of-Government Strategic Outcomes (WOGSO)",
+    url: ""
+  },
+  {
+    shortform: "WOG",
+    name: "Whole0Of-Government (WOG)",
     url: ""
   },
   {
@@ -6116,18 +5991,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "WTO",
-    name: "World Trade Organization (WTO)",
-    url: ""
-  },
-  {
     shortform: "YAKT",
     name: "Yakutsk Time  (UTC+09:00) (YAKT)",
-    url: ""
-  },
-  {
-    shortform: "YOLO",
-    name: "You Only Live Once (YOLO)",
     url: ""
   },
   {
