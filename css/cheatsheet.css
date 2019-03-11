@@ -81,13 +81,3 @@ body {
   position: relative;
   margin: auto;
 }
-
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .container {
-    display: flex;
-    left: 20%;
-    align-items: center;
-    justify-content: center;
-  }
-}
