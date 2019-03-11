@@ -5,7 +5,6 @@ body {
 
 .about {
   position: relative;
-  left:20%;
   display: inline-block;
   cursor: pointer;
 }
@@ -36,7 +35,6 @@ body {
 
 .search {
   width: 100%;
-  position: fixed;
   top: 2px;
 }
 
@@ -44,32 +42,28 @@ body {
   color: #b5222b;
 }
 
-.table {
-  display: table;
-  width: 400px;
-}
-.row {
-  display: table-row;
-}
-.cell {
-  display: table-cell;
-  padding-left: 5px;
-  padding-right: 5px;
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .result {
   position: relative;
   top: 40px;
-  left: -20px;
   font-size: 18px;
 }
 
+.num-entries {
+  margin-left: -2em;
+}
+
 .searchTerm {
-  float: left;
   border: 3px solid #b5222b;
   padding: 5px;
   height: 25px;
-  width: 400px;
+  width: 100%;
   border-radius: 5px;
   outline: none;
   font-size: 20px;
@@ -82,12 +76,10 @@ body {
 }
 
 .container {
-  width: 600px;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  width: 800px;
+  max-width: 90%;
+  position: relative;
+  margin: auto;
 }
 
 

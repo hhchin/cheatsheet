@@ -8,7 +8,7 @@ $(document).ready(function() {
     })
     ).done(function() {
       console.log("total entries in master list: " + masterList.length);
-      $("#resultList").append("<b>"+ masterList.length+"</b> Entries indexed");
+      $("#resultList").append("<span class='num-entries'><b>"+ masterList.length+"</b> Entries indexed</span>");
 
       var fuseOptions = {
         shouldSort: true,
