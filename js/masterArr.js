@@ -862,11 +862,6 @@ const masterList =
   },
   {
     shortform: "CIO",
-    name: "Chief Information Office (CIO)",
-    url: ""
-  },
-  {
-    shortform: "CIO",
     name: "Chief Information Officer (CIO)",
     url: ""
   },
@@ -1023,11 +1018,6 @@ const masterList =
   {
     shortform: "CAPAM",
     name: "Commonwealth Association of Public Administration & Management (CAPAM)",
-    url: ""
-  },
-  {
-    shortform: "CMG",
-    name: "Communications & Marketing Group (CMG)",
     url: ""
   },
   {
@@ -1881,8 +1871,8 @@ const masterList =
     url: ""
   },
   {
-    shortform: "Fipg",
-    name: "Finance, Investment & Procurement Group (Fipg)",
+    shortform: "FIPG",
+    name: "Finance, Investment & Procurement Group (FIPG)",
     url: ""
   },
   {
@@ -2067,22 +2057,12 @@ const masterList =
   },
   {
     shortform: "GDO",
-    name: "Government Data Office (GDO)",
-    url: ""
-  },
-  {
-    shortform: "GDO",
     name: "Government Data Office, SNGDO (GDO)",
     url: ""
   },
   {
     shortform: "GDSC",
     name: "Government Data Steering Committee (GDSC)",
-    url: ""
-  },
-  {
-    shortform: "GDSC",
-    name: "Government Data Steering Committees (GDSC)",
     url: ""
   },
   {
@@ -2123,11 +2103,6 @@ const masterList =
   {
     shortform: "GITSIR",
     name: "Government IT Security Incident Response, GovTech  (GITSIR)",
-    url: ""
-  },
-  {
-    shortform: "GICS",
-    name: "Government Infra CyberSecurity Services (GICS)",
     url: ""
   },
   {
@@ -2173,11 +2148,6 @@ const masterList =
   {
     shortform: "GPC",
     name: "Government Parliamentary Committee  (GPC)",
-    url: ""
-  },
-  {
-    shortform: "GPC",
-    name: "Government Parliamentary Committees (GPC)",
     url: ""
   },
   {
@@ -2531,23 +2501,18 @@ const masterList =
     url: ""
   },
   {
+    shortform: "IOC",
+    name: "Infrastructure Operations Command (IOC)",
+    url: ""
+  },
+  {
     shortform: "IaaS",
     name: "Infrastructure as a Service (IaaS)",
     url: ""
   },
   {
-    shortform: "IOC",
-    name: "Infrastructure oOerations Command (IOC)",
-    url: ""
-  },
-  {
     shortform: "ICO",
     name: "Initial Coin Offering (ICO)",
-    url: ""
-  },
-  {
-    shortform: "IOC",
-    name: "Initial Operation Capability (IOC)",
     url: ""
   },
   {
@@ -2573,11 +2538,6 @@ const masterList =
   {
     shortform: "i-Caf",
     name: "Innovation Caf (i-Caf)",
-    url: ""
-  },
-  {
-    shortform: "IMCS",
-    name: "Instant Messaging & Conferencing Service (IMCS)",
     url: ""
   },
   {
@@ -3673,11 +3633,6 @@ const masterList =
   {
     shortform: "NSEWL",
     name: "North-South and East-West Lines (NSEWL)",
-    url: ""
-  },
-  {
-    shortform: "NIMBY",
-    name: "Not In My Backyard (NIMBY)",
     url: ""
   },
   {
@@ -4786,6 +4741,11 @@ const masterList =
     url: ""
   },
   {
+    shortform: "SLF",
+    name: "Senior Leadership Forum (SLF)",
+    url: ""
+  },
+  {
     shortform: "SLM",
     name: "Senior Leadership Meeting (SLM)",
     url: ""
@@ -4853,11 +4813,6 @@ const masterList =
   {
     shortform: "SLA",
     name: "Service Level Agreement (SLA)",
-    url: ""
-  },
-  {
-    shortform: "SLA",
-    name: "Service Level Agreements (SLA)",
     url: ""
   },
   {
@@ -5012,11 +4967,6 @@ const masterList =
   },
   {
     shortform: "SG-TRM",
-    name: "Singapore Government Technical Manual (SG-TRM)",
-    url: ""
-  },
-  {
-    shortform: "SG-TRM",
     name: "Singapore Government Technology Reference Modal (SG-TRM)",
     url: ""
   },
@@ -5136,11 +5086,6 @@ const masterList =
     url: ""
   },
   {
-    shortform: "SME",
-    name: "Small Medium Enterprise (SME)",
-    url: ""
-  },
-  {
     shortform: "SVP",
     name: "Small Value Purchase (SVP)",
     url: ""
@@ -5218,11 +5163,6 @@ const masterList =
   {
     shortform: "SG-SDS",
     name: "Software Distribution Service (SG-SDS)",
-    url: ""
-  },
-  {
-    shortform: "SaaS",
-    name: "Software as a Service (SaaS)",
     url: ""
   },
   {
@@ -6018,11 +5958,6 @@ const masterList =
   {
     shortform: "ESub",
     name: "eSubmission (ESub)",
-    url: ""
-  },
-  {
-    shortform: "SWG",
-    name: "secured walled garden (SWG)",
     url: ""
   },
   {
