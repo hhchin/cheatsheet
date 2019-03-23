@@ -8,11 +8,12 @@ def main():
     csv_fn = sys.argv[1]
   else:
     csv_fn = 'temp_db.csv'
+  master_fn = 'master.csv'
 
   df = pd.read_csv(csv_fn)
   df = df.drop_duplicates(['fullname'], keep='first')
   df = df.sort_values(by='shortform')
-  df.to_csv(csv_fn, index=False, quoting=csv.QUOTE_ALL)
+  df.to_csv(master_fn, index=False, quoting=csv.QUOTE_ALL)
 
 if __name__ == '__main__':
 	main()

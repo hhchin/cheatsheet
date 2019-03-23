@@ -11,7 +11,7 @@ def main():
   if len(sys.argv) > 1:
     csv_fn = sys.argv[1]
   else:
-    csv_fn = 'temp_db.csv'
+    csv_fn = 'master.csv'
 
   rm_quote = lambda x: x.replace('"', '')
   #@TODO check if this way of reading csv is robust to escape chars
