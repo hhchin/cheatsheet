@@ -26,16 +26,16 @@ $(document).ready(function() {
         var result = fuse.search(queryTerms);
         var resultListHTML = "";
         for (var i = 0; i < Math.min(10, result.length); i++) {
-          if (result[i].url === '') {
-            resultListHTML +=
-            '<li><a>' +
-            result[i].name +
-            '</a></li>';
-          } else {
+          if ('url' in result[i]) {
             resultListHTML +=
             '<li><a href="' +
             result[i].url +
             '" target="_blank">' +
+            result[i].name +
+            '</a></li>';
+          } else {
+            resultListHTML +=
+            '<li><a>' +
             result[i].name +
             '</a></li>';
           }
