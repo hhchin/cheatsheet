@@ -23,7 +23,7 @@ $(document).ready(function() {
 
       function query() {
         var queryTerms = document.getElementById("searchBar").value;
-        $.get("logs/" + queryTerms);
+        $.get("?log=" + queryTerms);
         var result = fuse.search(queryTerms);
         var resultListHTML = "";
         for (var i = 0; i < Math.min(10, result.length); i++) {
