@@ -1242,7 +1242,7 @@ name: "Deep Packet Inspection (DPI)",
 },
 {
 shortform: "DCO",
-name: "Defence Cyber Organization (DCO)",
+name: "Defence Cyber Organization, MINDEF (DCO)",
 },
 {
 shortform: "DSTA",
@@ -1477,6 +1477,10 @@ name: "Dwelling Unit (DU)",
 {
 shortform: "GPP",
 name: "E-Government Policies & Programmes (GPP)",
+},
+{
+shortform: "EPC",
+name: "E-payments Committee (EPC)",
 },
 {
 shortform: "FISH",
@@ -3836,10 +3840,6 @@ shortform: "PPVC",
 name: "Prefabricated Prefinished Volumetric Construction (PPVC)",
 },
 {
-shortform: "PSC",
-name: "Premium Services Consultant (PSC)",
-},
-{
 shortform: "PSM",
 name: "Premium Services Manager (PSM)",
 },
@@ -4005,10 +4005,6 @@ name: "Public Sector InfoComm (PSi)",
 {
 shortform: "PSIF",
 name: "Public Sector InfoComm Forum (PSIF)",
-},
-{
-shortform: "PSIRC",
-name: "Public Sector InfoComm Review Committee (PSIRC)",
 },
 {
 shortform: "PSISC",
